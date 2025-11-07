@@ -46,7 +46,7 @@ There are three datasets in [Poly-MigrationBench](https://github.com/amazon-scie
 |-------|-----------------------------------------------|-------|-----------------------------------------------------------------------------------------------------|
 | 1     | [`Poly-MigrationBench-dotnet`](https://github.com/amazon-science/Poly-MigrationBench/Poly-MigrationBench-dotnet.csv)         | 100 | Under .NET Framework                              |
 | 2     | [`Poly-MigrationBench-node`](https://github.com/amazon-science/Poly-MigrationBench/Poly-MigrationBench-node.csv)  |   74 | Under Node.js <= 20                                          |
-| 3     | [`Poly-MigrationBench-python`](https://github.com/amazon-science/Poly-MigrationBench/Poly-MigrationBench-python.csv)           | 83 | Under Python <= 3.13|
+| 3     | [`Poly-MigrationBench-python`](https://github.com/amazon-science/Poly-MigrationBench/Poly-MigrationBench-python.csv)           | 83 | Under Python <= 3.12|
 
 ## 3. 🧩 Metadata
 Metadata is provided in the `csv` file for each dataset.
