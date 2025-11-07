@@ -1,0 +1,94 @@
+repo,base_commit,license,num_js_and_ts_files,num_loc,num_unit_test,install_command,build_command,test_command,deploy_command
+muthamizhyadav/Uyarchi,f544a96349333f4b83e692d04f21c7bad2a83733,MIT,560,95544,6,npm ci,,npm test,serverless deploy
+HathorNetwork/hathor-wallet-service-old,b3820ec6f8e4c912a0f4047032746b99cd7f5640,MIT,135,28050,3,npm ci,,npm test,serverless deploy
+openapistack/openapi-backend,55aa296c30173ae791402d3888ab80819c57f62c,MIT,56,7301,284,npm ci,npm run build,npm test,
+RevatureRobert/2106Jun07RNCN-2-p2-be,bab41d7c2ccc8976080bd4fd6df80176536090da,MIT,44,2192,12,npm install,,npm test,sam deploy
+lumigo-io/SAR-Propagate-CFN-Tags,2555b692cea2fc3c63e1a216cb793b619d2136b9,Apache-2.0,14,677,13,npm ci,,npm test,sam deploy
+jesseokeya/aws-cdk-playground,8ded298393cc81e9103f7a0bd2d7615ab1331324,MIT,38,953,1,npm ci,npm run build,npm test,npm run cdk deploy
+DiegoVictor/code-runner,e23eab3b4780fbe4237de397aeca2ebf05bbe173,MIT,33,1700,15,npm ci,,npm test,sam deploy
+Franco3010/learnLambda,9093f261904c2a012f31cad13942bd6fd545511e,MIT,31,2200,1,npm install,npm run build,npm run test,cdk deploy
+lumigo-io/SAR-Logging,0a08b40315d3282ab946b4ce16ac2069ea147980,Apache-2.0,11,1307,45,npm install,,npm run test,npm run package && npm run publish
+karlgroves/openai-content-moderator,62d79f2fedd401470cf2e484dad5d876b31c3b13,MIT,19,1976,85,npm install,,"npm run test
+npm run test:unit
+npm run test:integration",npm run deploy
+GamblingKings/GamblingKingsBackend,6158d6ddef7a4000ce9dfc7af88b7ee53ec2520e,Apache-2.0,93,7439,132,"yarn run dev:cleanup && 
+yarn run install_dep",,yarn run test,yarn run deploy-prod
+ukmadlz/care-pet,16c76d6ed72745b96814e134780f93fc327b0926,MIT,16,459,1,npm install,npm run build:serverless,npm run test,npm run deploy
+tacoinfra/op-broadcaster,d2f56329c3361dde627a4bb78f74c8e463f20d09,MIT,14,420,12,npm install,,npm run test,serverless deploy --stage dev
+johnkallen/reactAWS,28fd88cde61ee91ecf9a3858a55883d6bb85b8e2,MIT,16,459,1,npm install,npm run build:serverless,npm run test,npm run deploy
+zishanneno/aws-typescript-lambda-boilerplate,59845c5de2aa6558b0a1ac09d7691731acd87d5d,MIT,9,260,6,yarn,yarn sam:build,yarn test,yarn deploy
+orangejellyfish/pub-bot,c34826ba7f022194dda6858fcea7f3fbce4f71ca,MIT,6,170,2,npm install,,npm run test,npm run deploy
+douglasnaphas/cdn01-dsns,8f209f82ec2b60520f949ea9f31fcf56aea0eab9,Apache-2.0,3,298,19,npm install,,npm run test,sam deploy
+canva-public/rocketbot,7d343d903f8a2a2f30491f7b2518a09db4a8da19,MIT,19,2604,55,yarn install --immutable,yarn run build,yarn run test,sam deploy
+atombrenner/aws-image-optimizer,e61be2287865e878efa2fbe240e17531a00634af,MIT,17,780,11,npm ci,npm run build,npm test,npm run deploy
+dvsa/hvt-atf-history,f4d5f98f126d0905deb2547e91db8751753eba86,MIT,17,628,14,npm ci,"npm run build:dev
+
+npm run build:prod","npm test
+
+npm run test:ci",sam deploy
+dvsa/hvt-geolocation,75b9172a8f0c2ce44e3d05620e8063c37626e899,MIT,27,1146,38,npm ci,"npm run build:dev
+
+npm run build:prod","npm test
+
+npm run test:ci",sam deploy
+dvsa/hvt-read-api,5942df4d56abbe6e2a287122b4b24e5b15569550,MIT,16,820,10,npm ci,"npm run build:dev
+
+npm run build:prod",npm test,sam deploy
+dvsa/hvt-record-handler,5e9200f64f7f1c866a4525510df2fb0f6133af9c,MIT,18,1026,26,npm ci,"npm run build:dev
+
+npm run build:prod","npm test
+
+npm run test:ci",sam deploy
+dvsa/hvt-write-api,b1bcfaa829bb8b1e43a34325b0cfbc46c7eacec3,MIT,18,1065,17,npm ci,"npm run build:dev
+
+npm run build:prod",npm test,sam deploy
+lumigo-io/SAR-Lambda-Janitor,3a43d098247317bdc0556abbbccfb5ae5231f500,APACHE-2.0,6,512,13,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+ali-sdk/ali-oss,fa263d22ca4c6599cb987c3db6325c86c7a5dc6b,MIT,227,70209,9,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+LewisArdern/bXSS,e19135c306c73f37235b4e64d6965a74f5e7186e,MIT,23,1553,1,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+pixielabs/cavy,bd8209383f16e18dd0fad459009335c03d3de97b,MIT,11,959,4,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+adriantoine/enzyme-to-json,7d90cdf5f1878815a46b3a53f4e1e1b63418b38f,MIT,25,2206,130,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+wheresrhys/fetch-mock,52dd20ebef9bda69ea876383b160c23b8de4139f,MIT,62,9701,504,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+ecomfe/fonteditor,bebfbfdf62efa8a423cd5ab2b6db4b0d3829e3f0,MIT,305,41837,16,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+frctl/fractal,dd6cd938653b24cd23456d10b9c28d3bc436c4c3,MIT,237,11742,160,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+huchenme/github-trending-api,c23aab9a0a55e3528459a73d8eb55194171bc2de,MIT,13,18497,2,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+vercel/hazel,7f9c763f7652f8edbf0b2a9af76915474dfdae75,MIT,12,682,14,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+lirantal/is-website-vulnerable,9c2cf8861ed1cd1a510508e630f0fa5a866e085b,APACHE-2.0,12,896,42,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+marp-team/marpit,36bd8989f3612df3f40e4440b4f735e26b4604ee,MIT,106,9878,372,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+facebook/memlab,2da73dea20c5ecd3dd0277af78bd0ff16a60b0d1,MIT,377,92355,62,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+mateodelnorte/meta,1b727d56b7f09d3f27788ac02346f184622d36de,MIT,8,305,19,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+HarveyD/react-component-library,3f8fbdb600e607218c0237b27a133071dcd899d3,MIT,19,360,2,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+glennreyes/react-countup,771f6a39f4deca07ef5eefdc1091c59cb94f8573,MIT,14,1440,37,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+chromakode/react-html-email,e6f3b5122a19823fac31870649311c52e46c75f8,MIT,16,677,15,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+Kiarash-Z/react-modern-calendar-datepicker,0cd7478b2fda3f755f0128a2ba1244346ed9eba0,MIT,60,6020,65,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+peggyrayzis/react-native-create-bridge,63e1ce1624ca49fae77d3720cda2720d44dbf55c,MIT,11,775,36,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+redux-loop/redux-loop,f2c40f907d4f91fcd1606b643f486688bd086077,MIT,24,3168,89,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+pbojinov/request-ip,e1d0f4b89edf26c77cf62b5ef662ba1a0bd1c9fd,MIT,9,1228,41,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+webpack/sass-loader,900a5f8d03e56ce5dd6334cc37d3d8354a18decd,MIT,47,6928,1833,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+SmartThingsCommunity/smartapp-sdk-nodejs,2b3e291d6914c2ddc9623a3d60680cd6826fba9a,APACHE-2.0,67,7502,131,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+eduardoboucas/staticman,5d7ed7708775e3d4864382cca88d2d73ff875864,MIT,42,7114,156,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+Surnet/swagger-jsdoc,2325600ec6f2a40930fd7afc272a491bbab5d93c,MIT,33,2141,50,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+webpack/tapable,ecee2ef9420e4e533712f8da030f4846be29c631,MIT,28,3762,97,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+imbrn/v8n,701ebbe7ec75e426ad94fbc3574144ab159bf06d,MIT,12,2595,101,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+video-react/video-react,37b4741443f77d6c9a439df62fefd1b3b63a3152,MIT,126,8947,98,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+vue-gl/vue-gl,75b0a9611d2ab98a228c7b2437fc0f967988061c,MIT,100,3735,19,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+brockpetrie/vue-moment,e6782c369538c4d5e2ea636eb099447e975fb436,MIT,6,5869,28,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+superwf/vuex-cache,040b8870081e325264b3076af3850247ec81479c,MIT,19,2299,34,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+duckdegen/apebot,6f1545dcd72a524e5a09be5b5c0c1618d276984e,MIT,54,5481,1,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+diegohaz/constate,a11761ede253458a6f3041dd04116a6d97f5eda0,MIT,17,768,10,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+data-forge/data-forge-ts,828e428fb60ef6e4ab765d359529600cd20d6986,MIT,131,30367,76,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+mattermost/desktop,f34c94b1cec5bd4963b6f9da3a7dbf888f618c36,APACHE-2.0,362,51888,30,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+umijs/hox,b35a8de97da02c330266a77b681675c9633a43cd,MIT,15,1237,12,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+ex3ndr/llama-coder,d4b65d6737e2c5d4b5797fd77e18e740dd9355df,MIT,22,1088,1,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+alexreardon/memoize-one,d785546cd6ee9a1f52709eba9c5fb3b76e29de96,MIT,10,1460,86,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+urish/ngx-moment,4e0be7689e5a8cdda61bcba2b92ba4a9bcaec1c6,MIT,38,1286,72,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+casbin/node-casbin,388c4fc68bc91aff40427b0c56e96aa23f8a5e42,APACHE-2.0,60,8736,179,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+watson-developer-cloud/node-sdk,8c17f22a8cdf257276d6659a2abbf5d6fae5e9e3,APACHE-2.0,54,62547,880,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+st3v3nmw/obsidian-spaced-repetition,d11a10adb45755792761f3de670d7b61d61d9fca,MIT,134,20409,300,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+yeojz/otplib,147e67637377196e3c59cf93b12ac325aca76fac,MIT,80,5227,18,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+kevinsqi/react-circular-progressbar,48568ff0eef553182eef57a7c9f9e0b9486ff170,MIT,21,1678,26,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+react-cropper/react-cropper,ddfad195e84e8a0245312f424ddd58c527b20c64,MIT,7,389,9,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+ankeetmaini/react-infinite-scroll-component,d5b4e5250669022db5217763afd22fb3995a505a,MIT,15,1166,9,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+Andarist/react-textarea-autosize,ed1894cd8611d99fbea1c47adcf6ee522b1030fd,MIT,14,708,2,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+jonaskello/tsconfig-paths,098e066632f5b9f35c956803fe60d17ffc60b688,MIT,29,2322,82,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+wellyshen/use-places-autocomplete,89a6385eba872e3ad2314eaeabcd869212549b5e,MIT,20,1164,30,npm install,,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
+Maronato/vue-toastification,b34ea31f76cb3204fcdd047c0214df77850afefa,MIT,40,4303,201,npm install,npm run build,"jest --coverage --coverageReporters=""json-summary"" --coverageReporters=""html""",
