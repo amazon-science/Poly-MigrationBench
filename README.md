@@ -80,7 +80,7 @@ Metadata is provided in the `csv` file for each dataset.
 
 1. `repo (str)`: The original repo URL without the `https://github.com/` prefix
 1. `base_commit (str)`: Base commit id
-    - At this commit the repository is under Python <= 3.13
+    - At this commit the repository is under Python <= 3.12
 1. `num_files (int)`: ,num_loc,build_command
 1. `num_py_files (int)`: Number of `*.py` files in the repository at `base_commit`
 1. `num_loc (int)`: Number of lines of code for `*.py` files in the repository at `base_commit`
